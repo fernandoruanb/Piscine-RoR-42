@@ -35,4 +35,3 @@ Both methods rely on Ruby’s implicit return: the last evaluated expression is 
 - Ruby handles memory automatically via **Garbage Collection**, so no manual cleanup is required.
 
 Overall, the code is concise, readable, and correctly applies Ruby idioms for command-line parsing and data lookup.
-```
