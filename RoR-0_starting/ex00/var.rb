@@ -1,3 +1,12 @@
+#!/usr/bin/env ruby
+$VERBOSE = true
+
+=begin
+	The $VERBOSE turns on warnings, but, we can also run the code "ruby -w your_file.rb".
+	However, in my opinion, turns on the $VERBOSE is the best choice to accomplish to the subject.
+	We must need specify the interpreter to use by a shebang, the subject askes for it.
+=end
+
 vars = [
 	10,
 	10,
