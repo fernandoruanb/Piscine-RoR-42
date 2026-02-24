@@ -1,3 +1,6 @@
+#!/usr/bin/env ruby
+$VERBOSE = true
+
 data = [
 ['Frank', 33],
 ['Stacy', 15],
