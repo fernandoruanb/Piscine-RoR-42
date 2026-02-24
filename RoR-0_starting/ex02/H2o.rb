@@ -36,8 +36,11 @@ Then, it can work well
 
 myHash = Hash.new{ |h, k| h[k] = [] }
 
+# To accomplish that exercise, we need only to do the conversion '-'
+
 data.each do |name, age|
 	myHash[age] << name.strip()
+	puts "#{age} : #{name}"
 end
 
 =begin
@@ -48,11 +51,13 @@ end
 	Finally, we have the age and also the name. We print in the output "age : name" that the subject asked
 =end
 
+=begin
 myHash.keys.sort.each do |age|
 	myHash[age].sort.each do |name|
 		puts "#{age} : #{name}"
 	end
 end
+=end
 
 myHash.clear # clean everything I put there
 myHash = nil # if we want to call the Garbage Collector in a manual way
